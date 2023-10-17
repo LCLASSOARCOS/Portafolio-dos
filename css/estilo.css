@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.section-a {
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.5),
+        rgba(0,0,0,0.5)
+    )
+    , url(../img/lassofondo1.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:left;
+    width: 100%;
+    height: 100%;;
+    color: #fafafa;
+}
+/* header */
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo{
+    font-size: 25px;
+    color: #fafafa;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.logo:hover{
+    color: rgb(146, 37, 37);
+}
+
+.navbar a{
+    text-decoration: none;
+    color: #fafafa;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: .3s;
+}
+
+.navbar a:hover,
+.navbar a.active{
+    color:rgb(146, 37, 37);
+    
+}
+
+/* section home */
+
+.home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    padding: 0px;
+}
+
+.home-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+    width: 75%;
+}
+
+.home-content h1{
+    margin-top: 100px;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.home-content h3{
+    margin-top: 10px;
+    font-size: 40px;
+    font-weight: 700;
+    color: rgb(178, 31, 31);
+}
+
+.home-content p{
+    font-size: 18px;
+    margin: 80px 0 40px;
+}
+
+
+
+/* ancors del home */
+
+
+.home-content .btn-box{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+
+.btn-box a{
+    width: 150px;
+    height: 50px;
+    margin: 0px 20px;
+    background: brown;
+    border: 2px solid brown;
+    border-radius: 8px;
+    font-size: 19px;
+    color: #081b29;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-align: center;
+    padding: 10px 0px;
+}
+
+.btn-box a:nth-child(2){
+    background: transparent;
+    color: brown;
+}
+
+.btn-box a:nth-child(2):hover{
+    background: brown;
+    color: #fafafa;
+    border: 2px solid #fafafa;
+}
+
+.btn-box a:hover{
+    background: rgb(199, 54, 54);
+    color: #fafafa;
+    border: 2px solid #fafafa;
+}
+
+/* redes */
+
+.home .redes a{
+    width: 35px;
+    height: 35px;
+    font-size: 15px;
+    margin: 0px 5px;
+    margin-top: 50px;   
+    display:inline-block;
+    align-items: center;
+    color: aliceblue;
+    text-decoration: none;
+    border-radius: 100%;
+    border: 1px solid beige;
+    padding: 6px 10px;
+    transition: .3s;
+}
+
+.home .redes a:hover{
+    background: brown;
+}
+
+/* section B */
+
+.section-b h2{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500px;
+    color: brown;
+    background: #000000;
+}
+
+.perfil{
+    display: flex;
+    margin: 0px 0px;
+    background: #000000;
+}
+
+.education{
+    display: flex;
+    flex-direction: column;
+}
+
+.education h3{
+    color: #fafafa;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 500px;
+    margin-top: 10px;
+}
+
+
+.experience{
+    display: flex;
+    flex-direction: column;
+}
+
+.experience h3{
+    color: #fafafa;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 500px;
+    margin-top: 10px;
+}
+
+.cajas-education {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: safe;
+    margin-top: 10px;
+    background: #1b1c1d;
+    min-width: 300px;
+    height: auto;
+    color: #fafafa;
+    margin: 10px 30px;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.cajas-experiencia{
+    margin-top: 10px;
+    background: #1b1c1d;
+    height: auto;
+    color: #fafafa;
+    min-width: 300px;
+    margin: 10px 30px;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.cajas-education button{
+    width: 50px;
+}
+
+.cajas-experiencia button{
+    width: 50px;
+}
