@@ -168,7 +168,14 @@
     background: brown;
 }
 
+
+
 /* section B */
+
+.section-b{
+    background: #000000;
+    border-top: white 1px solid;
+}
 
 .section-b h2{
     text-align: center;
@@ -176,6 +183,7 @@
     font-weight: 500px;
     color: brown;
     background: #000000;
+    margin-top: 20px;
 }
 
 .perfil{
@@ -184,10 +192,6 @@
     background: #000000;
 }
 
-.education{
-    display: flex;
-    flex-direction: column;
-}
 
 .education h3{
     color: #fafafa;
@@ -197,11 +201,6 @@
     margin-top: 10px;
 }
 
-
-.experience{
-    display: flex;
-    flex-direction: column;
-}
 
 .experience h3{
     color: #fafafa;
@@ -214,25 +213,23 @@
 .cajas-education {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
-    align-items: safe;
-    margin-top: 10px;
     background: #1b1c1d;
     min-width: 300px;
-    height: auto;
+    min-height: auto;
     color: #fafafa;
-    margin: 10px 30px;
+    margin: 10px 50px;
     border-radius: 20px;
     padding: 10px;
 }
 
 .cajas-experiencia{
-    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
     background: #1b1c1d;
-    height: auto;
+    min-height: auto;
     color: #fafafa;
     min-width: 300px;
-    margin: 10px 30px;
+    margin: 10px 50px;
     border-radius: 20px;
     padding: 10px;
 }
@@ -243,4 +240,30 @@
 
 .cajas-experiencia button{
     width: 50px;
+}
+
+.perfil .ano{
+    color: #ffffff;
+    background: brown;
+    padding: 10px 0px;
+    margin: 10px 0px;
+    border-radius: 5px;
+    width: 100px;
+    text-align: center;
+}
+
+.cajas-education a{
+    text-decoration: none;
+    color: aquamarine;
+    margin: 13px 0px;
+}
+
+.cajas-experiencia a{
+    text-decoration: none;
+    color: aquamarine;
+    margin: 13px 0px;
+}
+
+.education .description{
+    text-align:justify;
 }
