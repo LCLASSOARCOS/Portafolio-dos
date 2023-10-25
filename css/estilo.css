@@ -21,6 +21,10 @@
     height: 100%;;
     color: #fafafa;
 }
+
+body{
+    background: #000000;
+}
 /* header */
 
 .header{
@@ -174,7 +178,6 @@
 
 .section-b{
     background: #000000;
-    border-top: white 1px solid;
 }
 
 .section-b h2{
@@ -245,8 +248,7 @@
 .perfil .ano{
     color: #ffffff;
     background: brown;
-    padding: 10px 0px;
-    margin: 10px 0px;
+    margin: 5px;
     border-radius: 5px;
     width: 100px;
     text-align: center;
@@ -266,4 +268,30 @@
 
 .education .description{
     text-align:justify;
+}
+
+/* enlace descargar hoja de vida */
+.hojade-vida{
+    background: #000000;
+    /* border: 1px solid wheat; */
+}
+.section-b .hojade-vida a {
+    text-decoration: none;
+    background: #040404;
+    color: #c2bdbd;
+    border-radius: 20px;
+    padding: 12px 40px;
+    border: 2px solid #c2bdbd;
+    transition: .3s;
+}
+
+.section-b .hojade-vida a:hover{
+    background:#535151;
+    color: #fafafa;
+}
+
+.hojade-vida p{
+    align-items: center;
+    text-align: center;
+    margin: 50px 0px;
 }
