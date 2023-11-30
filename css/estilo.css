@@ -295,3 +295,15 @@ body{
     text-align: center;
     margin: 50px 0px;
 }
+
+/* section c */
+
+.section-c{
+    display: flex;
+    flex-direction: column;
+}
+
+.card-servicios{
+    display: flex;
+    flex-direction: column;
+}
