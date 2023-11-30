@@ -301,9 +301,56 @@ body{
 .section-c{
     display: flex;
     flex-direction: column;
+    border-top: 1px solid #9e9696ec;
+    background: #333335;
+}
+
+.section-c .parrafito{
+    color: #fafafa;
+    text-align: center;
+    color: aqua;
+    font-size: 1em;
+    margin-top: 50px;
+}
+
+.section-c .titulo{
+    color: aliceblue;
+    text-align: center;
+    font-size: 2em;
+    font-weight: 700;
 }
 
 .card-servicios{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    color: #fafafa;
+    margin: 30px 30px;
+}
+
+.card-unidad{
+    border: 2px solid red;
+    border-radius: 20px;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    align-items:start;
+    background: #232425;
+
+}
+.card-unidad .imagen-servis{
+    max-width: 100%;
+    padding: 30px;
+    border-radius: 30px;
+    width: 100%;
+}
+.card-unidad .parrafo-card{
+    color: #ff014f;
+    margin-left: 40px;
+    font-size: 1.2em;
+}
+.card-unidad .titulo-card{
+    font-size: 2.5em;
+    margin-top: 20px;
+    margin-left: 40px;
 }
